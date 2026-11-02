@@ -4,7 +4,7 @@
 
 Explorer is a learning decision system, starting with SAT. It uses diagnostic evidence and targeted follow-up evidence to decide whether to stop, investigate further, or authorize a focused teaching target.
 
-This is a **public technical snapshot** of Explorer for recruiters and technical reviewers. It contains three selected implementation modules, architecture notes, and runnable synthetic examples that make a bounded decision contract inspectable.
+This is a **public technical snapshot** of Explorer. It contains three selected implementation modules, architecture notes, and runnable synthetic examples that make a bounded decision contract inspectable.
 
 The full production repository remains private. This repository is independently initialized with fresh history; it is not a fork or a runnable copy of the application.
 
