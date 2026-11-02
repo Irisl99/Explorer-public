@@ -20,4 +20,4 @@ The action contract returns `authorizedAction` and `confirmedSkill`. The clarifi
 
 Teaching eligibility and content release are separate decisions. Content availability does not change the evidence contract. Approval must bind the intended target and proposed content identity; content eligibility and delivery are not implemented here.
 
-Source provenance: unchanged backend excerpts at `c342042c8c07943343aceb3cdc692f79ce5f0a92`. The demo frontend uses `683f83eff02670a55d732ef3541cc2c9339412fb`. No original repository history is included.
+Source provenance: three selected backend excerpts, published as an independently initialized snapshot. No original repository history is included. These excerpts do not establish the current private Alpha implementation or deployment state.

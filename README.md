@@ -4,13 +4,17 @@
 
 Explorer is a learning decision system, starting with SAT. It uses diagnostic evidence and targeted follow-up evidence to decide whether to stop, investigate further, or authorize a focused teaching target.
 
-This is a **curated YC review snapshot** of three implementation modules from the Alpha backend. The full production repository remains private. This repository is independently initialized with fresh history; it is not a fork or a runnable copy of the application.
+This is a **public technical snapshot** of Explorer for recruiters and technical reviewers. It contains three selected implementation modules, architecture notes, and runnable synthetic examples that make a bounded decision contract inspectable.
 
-## Working Alpha / demo
+The full production repository remains private. This repository is independently initialized with fresh history; it is not a fork or a runnable copy of the application.
 
-[Open the staging surface used for the final YC demo](https://sat-prep-platform-git-codex-pre-alpha-student-a65787-iris-d495.vercel.app/). Application access may require an invited account. The public example below runs without application access.
+## Current status and product focus
 
-The demo frontend is bound to commit `683f83eff02670a55d732ef3541cc2c9339412fb`; the backend serving that frontend is bound to `c342042c8c07943343aceb3cdc692f79ce5f0a92`. These are distinct deployed versions. The three source modules here are unchanged excerpts from that backend commit. This snapshot does not establish the version of any other staging domain.
+Explorer is in **private Alpha with real learner testing**. Current work focuses on decision quality, ambiguous evidence, and the learning experience. This public snapshot illustrates selected implementation boundaries; it does not reproduce the current Alpha or validate learner outcomes.
+
+The product asks a practical question: given the available evidence, what should this student do next? Its design emphasizes evidence before intervention, explicit stops when evidence is insufficient, and human review before teaching release.
+
+For a technical review, start with the synthetic journey below, then inspect the three modules and their scope limitations.
 
 ## A synthetic decision journey
 
